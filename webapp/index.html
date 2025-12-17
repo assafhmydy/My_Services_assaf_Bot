@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <style>
+        body { background: #000; color: #d4af37; text-align: center; font-family: sans-serif; padding-top: 50px; }
+        .card { border: 2px solid #d4af37; padding: 20px; border-radius: 15px; display: inline-block; width: 80%; }
+        .btn { background: #d4af37; color: #000; padding: 15px; border-radius: 10px; width: 100%; margin: 10px 0; font-weight: bold; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>ASSAF SERVICES</h1>
+        <button class="btn" onclick="Telegram.WebApp.sendData('create')">🛠️ إنشاء بوت جديد</button>
+        <button class="btn" onclick="Telegram.WebApp.close()">❌ إغلاق اللوحة</button>
+    </div>
+</body>
+</html>
